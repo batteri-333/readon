@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리드온</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sw
+    iper@11/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="gotopbtn">
+        <p>UP</p>
+    </div>
+    <header>
+        <div class="countdown_wrap">
+            <div class="countdown">
+                <p>GRAND OPEN | <span id="countdownText">01:19:50:54</span></p>
+            </div>
+        </div>
+
+        <div class="headerinner">
+            <div class="headerlogo">
+                <a href="#top"><img src="img/header_mainlogo.png" alt="헤더로고"></a>
+            </div>
+
+            <div class="menuright">
+                <div class="menuwrap">
+                    <ul class="menu">
+                        <li><a href="#info">INFO</a></li>
+                        <li><a href="#popup">POPUP</a></li>
+                        <li><a href="#booktalk">BOOKTALK</a></li>
+                        <li><a href="#goods">SOUVENIER</a></li>
+                        <li><a href="#reservation">RESERVATION</a></li>
+                    </ul>
+                </div>
+
+                <div class="language">
+                    <p class="active">KOR</p>
+                    <p>EN</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="hero"></section>
+
+        <section class="introduce" id="info">
+            <div class="introduceimg">
+                <img src="img/introduceimg.png" alt="introduceimg">
+            </div>
+
+            <div class="inner">
+                <img class="readonlogo" src="img/readonlogo.png" alt="readonlogo">
+                <p class="introduce_subtitle">
+                    2026년, 교보문고가 서울야외도서관을 만나<br>
+                    잊지 못할 공간에서의 경험을 선사합니다.
+                </p>
+
+                <div class="info">
+                    <p class="dateloca">장소</p>
+                    <p class="dateloca_txt">서울 중구 세종대로 110(서울특별시청) 서울광장 서울도서관</p>
+                </div>
+
+                <div class="info">
+                    <p class="dateloca">일정</p>
+                    <p class="dateloca_txt">EVERY WEEKEND | SAT·SUN<br>10:00 - 16:00</p>
+                </div>
+
+                <button class="moreinfobtn" type="button" data-popup="infoPopup">자세히 보기</button>
+            </div>
+        </section>
+
+        <section class="map" id="popup">
+            <div class="inner">
+                <div class="map_txtwrap">
+                    <p class="map_subtitle">책과의 우연한 만남이 이뤄지는 곳</p>
+                    <img class="popuptitleimg" src="img/popupspacemaintxt.png" alt="popuplogo">
+                    <p class="map_explain">일상에서 벗어나<br>특별한 공간에서의 하루를 즐겨보세요.</p>
+                    <button class="moreinfobtn map_more" type="button" data-popup="popupInfo">자세히 보기</button>
+                </div>
+
+                <div class="map_imgwrap">
+                    <img class="mapbackground" src="img/mapbackground.png" alt="mapbackground">
+                    <button class="zone photozone" type="button" data-popup="photoPopup">
+                        <img src="img/photozone.png" alt="photozone">
+                        <span>PHOTO ZONE</span>
+                    </button>
+                    <button class="zone readingzone" type="button" data-popup="readingPopup">
+                        <img src="img/readingzone.png" alt="readingzone">
+                        <span>READING ZONE</span>
+                    </button>
+                    <button class="zone perfumezone" type="button" data-popup="perfumePopup">
+                        <img src="img/perfumezone.png" alt="perfumezone">
+                        <span>PERFUME POPUP</span>
+                    </button>
+                    <img class="entrancepin" src="img/entrancepin.png" alt="entrancepin">
+                </div>
+            </div>
+        </section>
+
+        <section class="talkshow" id="booktalk">
+            <div class="talkshow_inner">
+                <div class="talkshow_left">
+                    <p class="talkshow_subtitle">하늘 아래 펼쳐지는 책의 무대</p>
+                    <img class="talkshow_title" src="img/talkshowmaintxt.png" alt="BOOK TALKSHOW">
+                    <h3>TIMELINE</h3>
+                    <ul class="timeline">
+                        <li><strong>10:30</strong><span>BOOK TALK PART 1</span></li>
+                        <li><strong>12:00</strong><span>LUNCH BREAK</span></li>
+                        <li><strong>14:30</strong><span>BOOK TALK PART 2</span></li>
+                        <li><strong>16:00</strong><span>PHOTO TIME & FREE VIEWING</span></li>
+                    </ul>
+                    <button class="reservationbtn" type="button" data-popup="reservationPopup">예약하러 가기</button>
+                </div>
+
+                <div class="talkshow_right">
+                    <div class="talkday">
+                        <div class="talkdate">
+                            JULY / 2026
+                            <div class="datewrap">
+                                <strong>11</strong><span>SA</span>
+                            </div>
+                        </div>
+                        <div class="speakerwrap">
+                            <figure><img src="img/kimyeongha.png" alt="김영하">
+                                <figcaption><small>소설가</small> 김영하</figcaption>
+                            </figure>
+                            <figure><img src="img/hanroro.png" alt="한로로">
+                                <figcaption><small>가수</small> 한로로</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="talkday">
+                        <div class="talkdate">JULY / 2026
+                            <div class="datewrap">
+                                <strong>12</strong><span>SU</span>
+                            </div>
+                        </div>
+                        <div class="speakerwrap">
+                            <figure><img src="img/kimminkyung.png" alt="김민경">
+                                <figcaption><small>편집자</small> 김민경</figcaption>
+                            </figure>
+                            <figure><img src="img/shinsiyeon.png" alt="신시연">
+                                <figcaption><small>크리에이터</small> 신시연</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="souvenier" id="goods">
+            <div class="inner">
+                <div class="giftimg">                                               
+                    <img id="booklightImage" src="img/booklight_1.png" alt="북마크라이트">
+                    <div class="gift_dots">
+                        <button class="active" type="button" data-image="img/booklight_1.png"
+                            aria-label="제품 이미지 1"></button>
+                        <button type="button" data-image="img/booklight_2.png" aria-label="제품 이미지 2"></button>
+                        <button type="button" data-image="img/booklight_3.png" aria-label="제품 이미지 3"></button>
+                    </div>
+                </div>
+
+                <div class="gifttxtwrap">
+                    <p class="gift_label">FOR GIFT</p>
+                    <img class="souvenierlogo" src="img/souveniermaintxt.png" alt="souvenierlogo">
+                    <h1>울티 북마크라이트 (초경량 독서등)</h1>
+                    <p class="souvenier_explain">
+                        리드온 행사에 참여해주시는 모든 분들께 드리는 기념품!<br>
+                        교보문고 스탠드 조명 부문 best 상품인 북마크라이트를 무료로 드립니다!
+                    </p>
+                    <div class="souvenier_btnwrap">
+                        <button class="productdetails" type="button" data-popup="productPopup">제품 자세히 보기</button>
+                        <button class="gotobook" type="button" data-popup="reservationPopup">예약하러 가기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="storyevent">
+            <div class="storyevent_inner">
+                <div class="storyevent_txtwrap">
+                    <img class="storylogo" src="img/snsmaintxt.png" alt="IN THIS MOMENT, OUR STORY">
+                    <p class="sotry_subtitle">아름다운 순간의 한 페이지를<br>기록해보세요.</p>
+                    <button class="sharebtn" type="button">공유하기</button>
+                </div>
+
+                <div class="storycard">
+
+                    <!-- 스토리 이미지 슬라이드 -->
+                    <div class="storycard_img">
+
+                        <div class="swiper story-swiper">
+
+                            <!-- 상단 진행바 -->
+                            <div class="story-progress">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <img src="img/image85.png" alt="스토리 이미지 1">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="img/image89.png" alt="스토리 이미지 2">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="img/imgImage87.png" alt="스토리 이미지 3">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- 프로필은 슬라이드 위에 고정 -->
+                        <div class="story_profile">
+                            <img src="img/imgProfile.svg" alt="">
+                            <span>read_on</span>
+                            <small>1m</small>
+                        </div>
+
+                    </div>
+
+
+                    <!-- 카드 하단은 그대로 -->
+                    <div class="storycard_bottom">
+
+                        <p>책과 함께한 오늘의 한 페이지</p>
+                        <div class="instagramimgwrap">
+                            <img src="img/imgStoryLike.svg" alt="likebtn">
+                            <img src="img/imgStoryDm.svg" alt="dmbtn">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="companylogo">
+            <img src="img/imgImage96.png" alt="교보문고 서울야외도서관">
+        </div>
+
+        <div class="footerleft">
+            <div class="companylink">
+                <a href="#">회사소개</a>
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">청소년보호정책</a>
+                <a href="#">대량구매서비스</a>
+                <a href="#">협력사여러분</a>
+                <a href="#">채용정보</a>
+                <a href="#">광고소개</a>
+            </div>
+
+            <div class="footerlocation">
+                <div class="firstwarp">
+                    <a href="#">(주)교보문고</a>
+                    <a href="#">서울특별시 종로구 종로1</a>
+                    <a href="#">대표이사 : 허정도</a>
+                    <a href="#">사업자등록번호 : 102-81-11670</a>
+                </div>
+                <div class="secondwrap">
+                    <p>대표전화(발신자부담) : 1544-1900(교보문고) · 1661-1112(핫트랙스) I FAX : 0502-987-5711(지역번호 공동)</p>
+                </div>
+                <div class="thirdwrap">
+                    <p>서울특별시 통신판매업신고번호 : 제 653호</p>
+                </div>
+            </div>
+
+            <div class="footercopy">&copy; KYOBO Book Centre. All rights reserved</div>
+        </div>
+
+        <div class="footerright">
+            <div class="snswrap">
+                <img src="img/imgImage193.png" alt="footer_instagram">
+                <img src="img/imgImage191.png" alt="footer_youtube">
+                <img src="img/imgImage192.png" alt="footer_facebook">
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
