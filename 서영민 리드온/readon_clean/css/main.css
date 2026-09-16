@@ -2,8 +2,8 @@
 
 /* 공통 */
 .gotopbtn {
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     background-color: black;
     position: fixed;
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size : 20px;
+    font-size : 2rem;
     cursor: pointer;
     z-index: 999;
 
@@ -39,7 +39,7 @@ section {
     padding: 0 22px;
     border: 1px solid currentColor;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     transition: all .5s;
 }
@@ -73,7 +73,7 @@ header {
 
 .countdown {
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 0.08em;
 }
@@ -109,7 +109,7 @@ header.on .headerinner {
 }
 
 .menu a {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
@@ -121,7 +121,7 @@ header.on .headerinner {
     display: flex;
     gap: 10px;
     margin-left: 56px;
-    font-size: 12px;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -175,7 +175,7 @@ header.on .headerinner {
 
 .introduce_subtitle {
     margin-bottom: 54px;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 1.75;
 }
 
@@ -195,12 +195,12 @@ header.on .headerinner {
     color: #fff;
     background: #1d2015;
     border-radius: 17px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .dateloca_txt {
     padding-top: 6px;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.6;
 }
 
@@ -227,7 +227,7 @@ header.on .headerinner {
 
 .map_subtitle {
     margin-bottom: 32px;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .popuptitleimg {
@@ -358,7 +358,7 @@ header.on .headerinner {
 }
 
 .timeline {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     width: 60%;
 }
 
@@ -409,6 +409,7 @@ header.on .headerinner {
     gap: 14px;
 }
 .speakerwrap figure {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -418,7 +419,9 @@ header.on .headerinner {
     object-fit: cover;
     border-radius: 50%;
 }
-
+.speakerwrap figure small {
+    /* font-size: 2rem; */
+}
 .speakerwrap figcaption {
     margin-top: 12px;
     text-align: center;
